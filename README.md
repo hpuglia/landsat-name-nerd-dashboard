@@ -1,61 +1,87 @@
-# Landsat Name - Modo Nerd Dashboard
+# 🛰️ Landsat Name - Modo Nerd Dashboard
 
-Userscript independente que adiciona um painel interno com estatísticas, galeria e exploração de dados à ferramenta pública **Your Name in Landsat**, da NASA.
+<div align="center">
 
-> Projeto independente. Não é afiliado, mantido, endossado ou patrocinado pela NASA.
+<a href="https://greasyfork.org/pt-BR/scripts/575849-landsat-name-modo-nerd-dashboard">
+  <img src="https://img.shields.io/badge/📥_INSTALAR_SCRIPT-2ea44f?style=for-the-badge&logo=greasyfork&logoColor=white" height="60" alt="Instalar pelo Greasy Fork">
+</a>
 
-## O que o script faz
+<br>
 
-O script adiciona um botão flutuante **Modo Nerd** na página:
+[![Versão](https://img.shields.io/badge/versão-estável-blue?style=flat-square)](https://greasyfork.org/pt-BR/scripts/575849-landsat-name-modo-nerd-dashboard)
+[![Licença](https://img.shields.io/badge/licença-MIT-lightgrey?style=flat-square)](https://opensource.org/licenses/MIT)
+[![NASA](https://img.shields.io/badge/NASA-Ferramenta_Original-0b3d91?style=flat-square)](https://science.nasa.gov/specials/your-name-in-landsat/)
 
-https://science.nasa.gov/specials/your-name-in-landsat/
+<p align="center">
+  <strong>Transforme sua experiência na ferramenta "Your Name in Landsat" com análise de dados avançada e galeria integrada.</strong>
+</p>
 
-Ao clicar, ele abre um dashboard com:
+</div>
 
-- total de imagens encontradas;
-- total de países inferidos;
-- cobertura global do alfabeto;
-- ranking de países com mais imagens;
-- ranking de países com mais letras únicas;
-- ranking de letras com mais variações;
-- inspector por país;
-- galeria agrupada por país;
-- lightbox para visualizar imagens;
-- exportação dos dados em JSON;
-- cópia de resumo em texto.
+---
 
-## Como instalar
+## 📖 Descrição
 
-### Opção 1 — Tampermonkey
+O **Landsat Name - Modo Nerd Dashboard** é um userscript independente que estende a funcionalidade da ferramenta oficial da NASA. Ele cria uma camada de inteligência (dashboard) que extrai estatísticas, organiza galerias por países e permite uma exploração profunda dos dados das imagens de satélite Landsat que formam o seu nome.
 
-1. Instale o Tampermonkey no navegador.
-2. Abra o arquivo `landsat-name-nerd-dashboard.user.js`.
-3. Clique em **Raw**.
-4. O Tampermonkey deverá detectar o userscript.
-5. Clique em **Install**.
+---
 
-Depois disso, acesse:
+## 🚀 Funcionalidades Principais
 
-https://science.nasa.gov/specials/your-name-in-landsat/
+| Recurso | Descrição |
+| :--- | :--- |
+| **📊 Dashboard** | Visualização de total de imagens, países e cobertura global do alfabeto. |
+| **🌍 Análise Geográfica** | Ranking de países com mais imagens e variações de letras. |
+| **🖼️ Galeria Inteligente** | Imagens agrupadas por país com visualização em Lightbox (zoom). |
+| **🔍 Inspetor** | Veja detalhes técnicos de cada letra e a disponibilidade por região. |
+| **💾 Exportação** | Exporte todos os dados minerados para JSON ou copie resumos em texto. |
 
-O botão **Modo Nerd** aparecerá no canto inferior direito.
+---
 
-## Privacidade
+## 🛠️ Guia de Instalação
 
-Este script roda localmente no navegador do usuário.
+Siga os passos abaixo para ativar o Modo Nerd no seu navegador:
 
-Ele não envia dados para servidores externos próprios, não coleta dados pessoais e não usa backend.
+### 1. Requisito: Gerenciador de Scripts
+Você precisa de uma extensão para rodar scripts. Instale o **Tampermonkey** para o seu navegador:
+- [Chrome / Edge / Opera](https://www.tampermonkey.net/)
+- [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/tampermonkey/)
 
-## Limitações
+### 2. Instalação do Script
+Após instalar o Tampermonkey, clique no botão de instalação no topo deste README ou [clique aqui](https://greasyfork.org/pt-BR/scripts/575849-landsat-name-modo-nerd-dashboard) e confirme a instalação no Greasy Fork.
 
-A identificação de países é inferida a partir dos títulos e locais existentes na ferramenta original. Por isso, alguns países podem aparecer como `Unknown` ou podem exigir ajustes manuais no futuro.
+### 3. Como usar
+1. Acesse o site oficial: [Your Name in Landsat](https://science.nasa.gov/specials/your-name-in-landsat/).
+2. Aguarde o carregamento da página.
+3. Localize e clique no botão flutuante **"Modo Nerd"** no canto inferior direito.
 
-## Créditos
+---
 
-As imagens e dados originais pertencem às respectivas fontes indicadas na ferramenta Your Name in Landsat, incluindo páginas e serviços ligados à NASA, USGS, Sentinel Hub e outros links exibidos pela própria ferramenta.
+## 🔒 Privacidade e Segurança
 
-Este projeto apenas cria uma camada de análise e visualização sobre a página pública.
+- **100% Local:** O script processa tudo no seu navegador.
+- **Sem Rastreamento:** Não há coleta de dados pessoais ou conexões com servidores externos.
+- **Transparência:** O script apenas organiza dados que já são carregados publicamente pela NASA.
 
-## Licença
+---
 
-MIT.
+## ⚠️ Limitações
+
+* **Inferência de Dados:** A identificação dos países é baseada nos metadados originais da NASA. Locais não mapeados aparecerão como `Unknown`.
+* **Independência:** Este projeto **não é afiliado à NASA**. É uma ferramenta de fã para entusiastas de dados (os "nerds").
+
+---
+
+## 📌 Créditos
+
+As imagens e dados originais pertencem aos seus respectivos provedores: **NASA, USGS, Sentinel Hub** e parceiros. Este script é apenas uma interface de visualização.
+
+---
+
+<div align="center">
+
+Desenvolvido com ❤️ para a comunidade científica.
+<br>
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
