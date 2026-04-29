@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Landsat Name - Modo Nerd Dashboard
+// @name:pt-BR   Landsat Name - Modo Nerd Dashboard
 // @namespace    puglia.tools.landsat
 // @author       Puglia
 // @version      1.0.2
-// @description  Dashboard interno para a ferramenta Your Name in Landsat, com estatísticas, gráficos, detalhes por país e galeria.
+// @description  Internal dashboard for NASA's Your Name in Landsat tool, with statistics, charts, country details and gallery.
+// @description:pt-BR Dashboard interno para a ferramenta Your Name in Landsat, com estatísticas, gráficos, detalhes por país e galeria.
 // @match        https://science.nasa.gov/specials/your-name-in-landsat/*
 // @grant        none
 // @run-at       document-idle
