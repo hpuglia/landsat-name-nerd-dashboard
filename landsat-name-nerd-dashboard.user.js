@@ -7,6 +7,11 @@
 // @match        https://science.nasa.gov/specials/your-name-in-landsat/*
 // @grant        none
 // @run-at       document-idle
+// @homepageURL  https://github.com/hpuglia/landsat-name-nerd-dashboard
+// @supportURL   https://github.com/hpuglia/landsat-name-nerd-dashboard/issues
+// @downloadURL  https://raw.githubusercontent.com/hpuglia/landsat-name-nerd-dashboard/main/landsat-name-nerd-dashboard.user.js
+// @updateURL    https://raw.githubusercontent.com/hpuglia/landsat-name-nerd-dashboard/main/landsat-name-nerd-dashboard.user.js
+// @license      MIT
 // ==/UserScript==
 
 (function () {
